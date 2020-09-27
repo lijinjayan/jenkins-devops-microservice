@@ -1,8 +1,40 @@
-node {
-	stage('Build') {
-		echo "Build"
-	}
-	stage('Test') {
-		echo "Test"
-	}
+pipeline{
+
+
+
+stages{
+
+stage('Build')
+{
+
+
+
+}
+
+stage('Test')
+{
+
+
+
+}
+
+stage('DEploy')
+{
+
+
+
+}
+}
+
+post
+{
+
+success {
+
+echo "Success"
+}
+}
+
+
+
 }
