@@ -8,7 +8,7 @@ stage('Build') {
 
 steps {
 echo "Build Stage"
-echo "mvn --version"
+sh :wq"mvn --version"
 }
 
 
