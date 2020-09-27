@@ -4,37 +4,32 @@ agent any
 
 stages{
 
-stage('Build')
-{
+stage('Build') {
 
+steps {
+echo "Build Stage"
+}
 
 
 }
 
-stage('Test')
-{
+stage('Test') {
+steps {
 
+echo "Test"
+}
 
 
 }
 
-stage('DEploy')
-{
+stage('DEploy'){
+steps { 
 
+echo " Deploy"
+}
 
 
 }
 }
-
-post
-{
-
-success {
-
-echo "Success"
-}
-}
-
-
 
 }
